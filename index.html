@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tabaguasu Pindorama — Livro</title>
+  <meta name="description" content="Site oficial do livro 'Tabaguasu Pindorama' — capítulos, mapa, personagens, compra independente e contato." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--muted:#94a3b8;--accent:#9f7aea;--glass:rgba(255,255,255,0.04);--maxw:1100px}
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial;color:#e6eef8;background:linear-gradient(180deg,#071124 0%,var(--bg) 60%);-webkit-font-smoothing:antialiased}
+    .container{max-width:var(--maxw);margin:32px auto;padding:24px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{display:flex;align-items:center;gap:14px}
+    .logo{width:56px;height:56px;border-radius:8px;background:linear-gradient(135deg,#0ea5a3,#7c3aed);display:flex;align-items:center;justify-content:center;font-weight:700;color:white}
+    h1{margin:0;font-size:20px}
+    nav a{color:var(--muted);text-decoration:none;margin-left:16px;font-weight:600}
+
+    .hero{display:grid;grid-template-columns:1fr 360px;gap:28px;margin-top:28px}
+    .card{background:linear-gradient(180deg,rgba(255,255,255,0.02),var(--glass));padding:20px;border-radius:12px;box-shadow:0 6px 30px rgba(2,6,23,0.6)}
+    .intro h2{margin:0 0 12px 0;font-size:28px}
+    .intro p{color:var(--muted);line-height:1.6}
+
+    .book-cover{width:100%;height:420px;border-radius:10px;background-image:linear-gradient(135deg,#071124,#1f2937);display:flex;align-items:center;justify-content:center;color:#dbeafe;font-weight:700}
+    .actions{display:flex;gap:10px;margin-top:14px}
+    .btn{padding:10px 14px;border-radius:8px;border:0;cursor:pointer;font-weight:600}
+    .btn-primary{background:var(--accent);color:white}
+    .btn-ghost{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--muted)}
+
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:24px;margin-top:24px}
+    .chapters ul{list-style:none;padding:0;margin:0}
+    .chapters li{padding:12px;border-radius:8px;margin-bottom:10px;background:linear-gradient(180deg,rgba(255,255,255,0.01),transparent);display:flex;justify-content:space-between;align-items:center}
+    .chapter-meta{color:var(--muted);font-size:13px}
+
+    aside .widget{margin-bottom:18px}
+    .search{width:100%;padding:10px;border-radius:10px;border:0;background:rgba(2,2,b,c.22);color:inherit}
+
+    footer{color:var(--muted);text-align:center;margin-top:34px;padding:20px}
+
+    /* responsive */
+    @media (max-width:900px){
+      .hero{grid-template-columns:1fr;}
+      .grid{grid-template-columns:1fr}
+      .book-cover{height:300px}
+    }
+
+    /* small utilities */
+    .muted{color:var(--muted)}
+    a.inline{color:#0000ff;text-decoration:underline}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">TP</div>
+        <div>
+          <h1>Tabaguasu Pindorama</h1>
+          <div class="muted">Uma parábola sobre humanidade e política — Moisés Rocha Ferreira</div>
+        </div>
+      </div>
+      <nav>
+      </nav>
+    </header>
+
+    <main>
+      <section class="card" style="margin-top:24px;padding:32px;text-align:center;background:linear-gradient(180deg,rgba(255,255,255,0.03),rgba(255,255,255,0.01));background-image:url('bandeira_fundo.jpg');background-size:cover;background-position:center;border-radius:14px;">
+  <h2 style="font-size:32px;margin:0;color:white;text-shadow:0 2px 6px rgba(0,0,0,0.5)">Site Tabaguasu Pindorama</h2>
+  <p style="margin-top:6px;color:#dce3f5;font-size:16px">Site oficial da saga da obra de livro "Tabaguasu Pindorama".</p>
+
+  <div style="margin-top:28px;background:rgba(0,0,0,0.45);padding:20px;border-radius:12px;backdrop-filter:blur(4px);">
+    <h3 style="margin:0 0 10px 0;color:white">O que é "Tabaguasu Pindorama"?</h3>
+    <p style="color:#0000ff;line-height:1.7;margin:0">
+      Tabaguasu Pindorama é uma futura saga de livros de utopia no Brasil, em que o povo nacional busca uma vida digna baseada na tradição de estilo de vida dos povos viventes da antiga Pindorama. Por enquanto, apenas um título está disponível; mas chegarão mais brevemente.<br><br>
+      Acesse a obra neste site.
+    </p>
+  </div>
+
+  <div style="margin-top:26px;display:flex;flex-wrap:wrap;gap:12px;justify-content:center">
+    <a class="btn btn-primary" href="anuncio.html">Anúncio</a>
+    <a class="btn btn-primary" href="acesso.html">Acesso ou compra do livro</a>
+    <a class="btn btn-primary" href="artes.html">Artes ilustrativas do livro</a>
+    <a class="btn btn-primary" href="musicas.html">Músicas do livro</a>
+    <a class="btn btn-primary" href="guia.html">Guia de divulgação</a>
+  </div>
+</section>
+
+
+        </aside>
+      </section>
+
+      <section class="card" id="contato" style="margin-top:18px">
+        <h3>Contato</h3>
+        <p class="muted">Para opiniões, pedidos ou correções ortográficas,  consulte um dos contatos para obtenção do livro:
+</br>
+Discord: 0_moifer_0</a>
+</p>
+      </section>
+
+    </main>
+
+    <footer>
+      <div>© <span id="yr"></span> Moisés Rocha Ferreira — Tabaguasu Pindorama</div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('yr').textContent = new Date().getFullYear();
+    function openSection(hash){
+      location.hash = hash;
+      const el = document.querySelector(hash);
+      if(el) el.scrollIntoView({behavior:'smooth'});
+    }
+
+    function filterList(){
+      const q = document.getElementById('q').value.toLowerCase();
+      document.querySelectorAll('.chapters li').forEach(li=>{
+        const text = li.innerText.toLowerCase();
+        li.style.display = text.includes(q) ? 'flex' : 'none';
+      });
+    }
+  </script>
+</body>
+</html>
